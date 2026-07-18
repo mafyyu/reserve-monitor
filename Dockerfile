@@ -13,6 +13,4 @@ COPY . .
 RUN chmod +x /app/docker/start.sh
 RUN npx playwright --version
 
-EXPOSE 3001
-
 CMD ["/app/docker/start.sh"]

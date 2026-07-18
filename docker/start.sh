@@ -2,4 +2,4 @@
 set -euo pipefail
 
 mkdir -p /app/data
-exec node /app/server.js
+exec node /app/src/index.js
